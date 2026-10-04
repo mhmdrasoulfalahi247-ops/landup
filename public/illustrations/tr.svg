@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <title>Turkish: Istanbul-inspired skyline over the Bosphorus</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1d4e"/>
+      <stop offset="0.55" stop-color="#c2457a"/>
+      <stop offset="0.9" stop-color="#f6a45a"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3f7a"/>
+      <stop offset="1" stop-color="#1d2148"/>
+    </linearGradient>
+    <clipPath id="seaClip"><rect x="0" y="700" width="1600" height="300"/></clipPath>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <circle cx="1220" cy="600" r="120" fill="#ffd28a" opacity="0.8"/>
+
+  <g id="skyline" fill="#3a1f3f">
+    <path d="M120 700 V420 C120 380 150 360 150 360 C150 360 180 380 180 420 V700 Z"/>
+    <path d="M110 420 L150 300 L190 420 Z"/>
+    <rect x="80" y="560" width="200" height="140"/>
+
+    <rect x="500" y="520" width="600" height="180"/>
+    <path d="M560 520 C560 440 620 410 660 410 C700 410 760 440 760 520 Z"/>
+    <path d="M840 520 C840 440 900 410 940 410 C980 410 1040 440 1040 520 Z"/>
+    <path d="M640 470 C640 330 720 280 800 280 C880 280 960 330 960 470 Z"/>
+    <rect x="796" y="240" width="8" height="44"/>
+
+    <rect x="456" y="250" width="20" height="450"/>
+    <path d="M456 250 L466 160 L476 250 Z"/>
+    <rect x="450" y="340" width="32" height="10"/>
+    <rect x="450" y="440" width="32" height="10"/>
+
+    <rect x="1124" y="250" width="20" height="450"/>
+    <path d="M1124 250 L1134 160 L1144 250 Z"/>
+    <rect x="1118" y="340" width="32" height="10"/>
+    <rect x="1118" y="440" width="32" height="10"/>
+
+    <rect x="530" y="330" width="16" height="370"/>
+    <path d="M530 330 L538 260 L546 330 Z"/>
+    <rect x="1054" y="330" width="16" height="370"/>
+    <path d="M1054 330 L1062 260 L1070 330 Z"/>
+
+    <path d="M1180 700 V620 L1260 600 L1340 630 L1420 590 L1520 640 L1600 610 V700 Z"/>
+    <path d="M0 700 V640 L60 620 L80 700 Z"/>
+    <path d="M280 700 V630 L360 610 L440 640 L500 620 V700 Z"/>
+  </g>
+
+  <rect x="0" y="700" width="1600" height="300" fill="url(#sea)"/>
+  <g clip-path="url(#seaClip)" opacity="0.25">
+    <use href="#skyline" transform="translate(0 1400) scale(1 -1)"/>
+  </g>
+  <g stroke="#ffd28a" stroke-width="5" stroke-linecap="round" opacity="0.6">
+    <line x1="1160" y1="740" x2="1280" y2="740"/>
+    <line x1="1180" y1="780" x2="1260" y2="780"/>
+    <line x1="1190" y1="830" x2="1250" y2="830"/>
+    <line x1="1200" y1="880" x2="1240" y2="880"/>
+  </g>
+
+  <g transform="translate(240 860)">
+    <path d="M0 0 H220 L190 40 H30 Z" fill="#f2e6d0"/>
+    <rect x="60" y="-36" width="110" height="36" fill="#f2e6d0"/>
+    <rect x="80" y="-28" width="16" height="14" fill="#3a3f7a"/>
+    <rect x="110" y="-28" width="16" height="14" fill="#3a3f7a"/>
+    <rect x="140" y="-28" width="16" height="14" fill="#3a3f7a"/>
+    <rect x="96" y="-70" width="14" height="34" fill="#c8392f"/>
+  </g>
+
+  <g fill="none" stroke="#2b1d4e" stroke-width="4" stroke-linecap="round">
+    <path d="M300 200 Q315 186 330 200 Q345 186 360 200"/>
+    <path d="M400 150 Q412 139 424 150 Q436 139 448 150"/>
+    <path d="M1300 220 Q1314 207 1328 220 Q1342 207 1356 220"/>
+  </g>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <title>Spanish: Andalusian hill town with Moorish arches</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f08a3e"/>
+      <stop offset="1" stop-color="#f9d976"/>
+    </linearGradient>
+    <symbol id="casa" viewBox="0 0 120 90" width="120" height="90">
+      <rect x="0" y="24" width="120" height="66" fill="#fbf6ec"/>
+      <path d="M-6 26 L60 0 L126 26 Z" fill="#c4552f"/>
+      <rect x="18" y="44" width="18" height="24" fill="#3d6e8c"/>
+      <rect x="54" y="56" width="20" height="34" fill="#7a3b22"/>
+      <rect x="88" y="44" width="18" height="24" fill="#3d6e8c"/>
+    </symbol>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <circle cx="300" cy="260" r="130" fill="#fff1b8" opacity="0.85"/>
+
+  <g fill="#d9a066">
+    <path d="M1080 600 V300 C1080 250 1110 230 1110 200 C1110 230 1140 250 1140 300 V600 Z"/>
+    <path d="M1160 600 V240 C1160 180 1195 160 1195 110 C1195 160 1230 180 1230 240 V600 Z"/>
+    <path d="M1250 600 V260 C1250 205 1282 185 1282 140 C1282 185 1314 205 1314 260 V600 Z"/>
+    <path d="M1330 600 V320 C1330 270 1358 250 1358 220 C1358 250 1386 270 1386 320 V600 Z"/>
+  </g>
+  <g fill="#b97d47">
+    <circle cx="1110" cy="340" r="6"/><circle cx="1110" cy="380" r="6"/><circle cx="1110" cy="420" r="6"/>
+    <circle cx="1195" cy="280" r="7"/><circle cx="1195" cy="330" r="7"/><circle cx="1195" cy="380" r="7"/>
+    <circle cx="1282" cy="300" r="7"/><circle cx="1282" cy="350" r="7"/><circle cx="1282" cy="400" r="7"/>
+    <circle cx="1358" cy="360" r="6"/><circle cx="1358" cy="400" r="6"/>
+  </g>
+  <rect x="1060" y="560" width="350" height="60" fill="#c48a52"/>
+
+  <path d="M0 700 C200 560 420 520 640 560 C820 590 980 640 1600 600 V1000 H0 Z" fill="#c9a26b"/>
+
+  <g>
+    <use href="#casa" x="120" y="560"/>
+    <use href="#casa" x="250" y="530"/>
+    <use href="#casa" x="380" y="520"/>
+    <use href="#casa" x="510" y="540"/>
+    <use href="#casa" x="60" y="640"/>
+    <use href="#casa" x="190" y="620"/>
+    <use href="#casa" x="320" y="610"/>
+    <use href="#casa" x="450" y="620"/>
+    <use href="#casa" x="580" y="630"/>
+  </g>
+
+  <g>
+    <rect x="640" y="640" width="960" height="140" fill="#e8c48c"/>
+    <rect x="640" y="626" width="960" height="18" fill="#b9814a"/>
+    <g fill="#7a3b22">
+      <path d="M680 780 V720 C680 690 700 676 720 676 C740 676 760 690 760 720 V780 Z"/>
+      <path d="M800 780 V720 C800 690 820 676 840 676 C860 676 880 690 880 720 V780 Z"/>
+      <path d="M920 780 V720 C920 690 940 676 960 676 C980 676 1000 690 1000 720 V780 Z"/>
+      <path d="M1040 780 V720 C1040 690 1060 676 1080 676 C1100 676 1120 690 1120 720 V780 Z"/>
+      <path d="M1160 780 V720 C1160 690 1180 676 1200 676 C1220 676 1240 690 1240 720 V780 Z"/>
+      <path d="M1280 780 V720 C1280 690 1300 676 1320 676 C1340 676 1360 690 1360 720 V780 Z"/>
+      <path d="M1400 780 V720 C1400 690 1420 676 1440 676 C1460 676 1480 690 1480 720 V780 Z"/>
+      <path d="M1520 780 V720 C1520 690 1540 676 1560 676 C1580 676 1600 690 1600 720 V780 Z"/>
+    </g>
+  </g>
+
+  <rect x="0" y="780" width="1600" height="220" fill="#a8743f"/>
+  <g fill="#6f7d3a">
+    <ellipse cx="160" cy="820" rx="70" ry="42"/>
+    <ellipse cx="420" cy="850" rx="80" ry="46"/>
+    <ellipse cx="760" cy="830" rx="70" ry="40"/>
+    <ellipse cx="1120" cy="860" rx="84" ry="46"/>
+    <ellipse cx="1460" cy="830" rx="74" ry="42"/>
+  </g>
+  <g fill="#4d3a22">
+    <rect x="154" y="850" width="12" height="50"/>
+    <rect x="414" y="884" width="12" height="50"/>
+    <rect x="754" y="858" width="12" height="50"/>
+    <rect x="1114" y="894" width="12" height="50"/>
+    <rect x="1454" y="860" width="12" height="50"/>
+  </g>
+</svg>
