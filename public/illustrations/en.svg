@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <title>English: London-inspired riverside on a soft grey day</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ea6bd"/>
+      <stop offset="1" stop-color="#e4e9ee"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6d8aa3"/>
+      <stop offset="1" stop-color="#3f5870"/>
+    </linearGradient>
+    <pattern id="gothic" width="40" height="120" patternUnits="userSpaceOnUse" y="500">
+      <rect width="40" height="120" fill="#c9b48c"/>
+      <rect x="12" y="20" width="16" height="70" rx="8" fill="#7d6a4b"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <g fill="#ffffff" opacity="0.55">
+    <ellipse cx="280" cy="160" rx="170" ry="40"/>
+    <ellipse cx="380" cy="135" rx="110" ry="36"/>
+    <ellipse cx="1180" cy="120" rx="200" ry="44"/>
+    <ellipse cx="1300" cy="96" rx="120" ry="38"/>
+  </g>
+
+  <g fill="none" stroke="#a7b4c0" stroke-width="10">
+    <circle cx="1320" cy="430" r="190"/>
+  </g>
+  <g stroke="#a7b4c0" stroke-width="4">
+    <line x1="1320" y1="240" x2="1320" y2="620"/>
+    <line x1="1130" y1="430" x2="1510" y2="430"/>
+    <line x1="1186" y1="296" x2="1454" y2="564"/>
+    <line x1="1454" y1="296" x2="1186" y2="564"/>
+    <line x1="1320" y1="430" x2="1240" y2="700"/>
+    <line x1="1320" y1="430" x2="1400" y2="700"/>
+  </g>
+
+  <rect x="280" y="500" width="760" height="200" fill="url(#gothic)"/>
+  <g fill="#b39c72">
+    <path d="M300 500 L312 450 L324 500 Z"/><path d="M380 500 L392 450 L404 500 Z"/>
+    <path d="M460 500 L472 450 L484 500 Z"/><path d="M540 500 L552 450 L564 500 Z"/>
+    <path d="M620 500 L632 450 L644 500 Z"/><path d="M700 500 L712 450 L724 500 Z"/>
+    <path d="M780 500 L792 450 L804 500 Z"/><path d="M860 500 L872 450 L884 500 Z"/>
+    <path d="M940 500 L952 450 L964 500 Z"/><path d="M1012 500 L1024 450 L1036 500 Z"/>
+  </g>
+
+  <g>
+    <rect x="160" y="250" width="110" height="450" fill="#c9b48c"/>
+    <rect x="150" y="300" width="130" height="130" fill="#b39c72"/>
+    <circle cx="215" cy="365" r="48" fill="#f4ecd8" stroke="#5f4e33" stroke-width="6"/>
+    <line x1="215" y1="365" x2="215" y2="332" stroke="#3a2f1e" stroke-width="5" stroke-linecap="round"/>
+    <line x1="215" y1="365" x2="240" y2="372" stroke="#3a2f1e" stroke-width="5" stroke-linecap="round"/>
+    <path d="M150 300 L215 170 L280 300 Z" fill="#7d6a4b"/>
+    <line x1="215" y1="170" x2="215" y2="130" stroke="#5f4e33" stroke-width="6"/>
+    <rect x="186" y="460" width="18" height="60" rx="9" fill="#7d6a4b"/>
+    <rect x="226" y="460" width="18" height="60" rx="9" fill="#7d6a4b"/>
+  </g>
+
+  <rect x="0" y="690" width="1600" height="20" fill="#7a858f"/>
+  <rect x="0" y="710" width="1600" height="290" fill="url(#river)"/>
+
+  <g fill="#8b98a3">
+    <rect x="0" y="660" width="1600" height="32"/>
+  </g>
+  <g fill="#3f5870">
+    <path d="M60 692 C60 640 160 640 160 692 Z"/>
+    <path d="M300 692 C300 640 400 640 400 692 Z"/>
+    <path d="M540 692 C540 640 640 640 640 692 Z"/>
+    <path d="M780 692 C780 640 880 640 880 692 Z"/>
+    <path d="M1020 692 C1020 640 1120 640 1120 692 Z"/>
+    <path d="M1260 692 C1260 640 1360 640 1360 692 Z"/>
+    <path d="M1500 692 C1500 640 1600 640 1600 692 Z"/>
+  </g>
+
+  <g transform="translate(620 610)">
+    <rect width="150" height="56" rx="8" fill="#c8392f"/>
+    <rect x="10" y="8" width="130" height="14" rx="3" fill="#f2e6d0"/>
+    <rect x="10" y="28" width="130" height="12" rx="3" fill="#f2e6d0"/>
+    <circle cx="34" cy="56" r="10" fill="#2a2a2a"/>
+    <circle cx="118" cy="56" r="10" fill="#2a2a2a"/>
+  </g>
+
+  <g stroke="#a9bccd" stroke-width="3" stroke-linecap="round" opacity="0.6">
+    <line x1="200" y1="780" x2="360" y2="780"/>
+    <line x1="700" y1="820" x2="880" y2="820"/>
+    <line x1="1100" y1="880" x2="1260" y2="880"/>
+    <line x1="420" y1="920" x2="560" y2="920"/>
+  </g>
+</svg>

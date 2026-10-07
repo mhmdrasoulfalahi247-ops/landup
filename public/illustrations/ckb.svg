@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <title>Kurdish: stepped mountain village in the Zagros</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fbad6"/>
+      <stop offset="1" stop-color="#f3e3bd"/>
+    </linearGradient>
+    <symbol id="house" viewBox="0 0 100 70" width="100" height="70">
+      <rect x="0" y="10" width="100" height="60" fill="#e4d1aa"/>
+      <rect x="-4" y="2" width="108" height="10" fill="#6b4f33"/>
+      <rect x="14" y="28" width="16" height="20" fill="#3b2a1c"/>
+      <rect x="44" y="28" width="16" height="20" fill="#3b2a1c"/>
+      <rect x="72" y="36" width="18" height="34" fill="#5a3d26"/>
+    </symbol>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+
+  <g transform="translate(1260 210)">
+    <g stroke="#f6c344" stroke-width="8" stroke-linecap="round" opacity="0.8">
+      <line x1="0" y1="-110" x2="0" y2="-140"/>
+      <line x1="0" y1="110" x2="0" y2="140"/>
+      <line x1="-110" y1="0" x2="-140" y2="0"/>
+      <line x1="110" y1="0" x2="140" y2="0"/>
+      <line x1="78" y1="78" x2="99" y2="99"/>
+      <line x1="-78" y1="78" x2="-99" y2="99"/>
+      <line x1="78" y1="-78" x2="99" y2="-99"/>
+      <line x1="-78" y1="-78" x2="-99" y2="-99"/>
+    </g>
+    <circle r="82" fill="#f6c344"/>
+  </g>
+
+  <path d="M0 520 L160 380 L300 450 L470 300 L640 430 L820 280 L1000 420 L1180 330 L1380 440 L1600 360 V1000 H0 Z" fill="#9db3bf"/>
+  <path d="M0 600 L220 470 L420 560 L640 440 L860 560 L1080 470 L1300 580 L1600 480 V1000 H0 Z" fill="#7c9a7e"/>
+  <path d="M600 1000 L900 640 L1080 700 L1260 600 L1600 680 V1000 Z" fill="#5d7d55"/>
+
+  <path d="M0 1000 V430 L260 400 L560 520 L820 650 L1040 790 L1220 1000 Z" fill="#8a6e4b"/>
+  <path d="M0 1000 V560 L240 540 L520 640 L760 760 L960 1000 Z" fill="#7a5f3f"/>
+
+  <g>
+    <use href="#house" x="20" y="350"/>
+    <use href="#house" x="130" y="345"/>
+    <use href="#house" x="240" y="352"/>
+    <use href="#house" x="60" y="420"/>
+    <use href="#house" x="170" y="416"/>
+    <use href="#house" x="290" y="430"/>
+    <use href="#house" x="400" y="455"/>
+    <use href="#house" x="20" y="490"/>
+    <use href="#house" x="130" y="488"/>
+    <use href="#house" x="245" y="500"/>
+    <use href="#house" x="360" y="520"/>
+    <use href="#house" x="480" y="540"/>
+    <use href="#house" x="590" y="580"/>
+    <use href="#house" x="80" y="565"/>
+    <use href="#house" x="200" y="575"/>
+    <use href="#house" x="320" y="595"/>
+    <use href="#house" x="440" y="615"/>
+    <use href="#house" x="560" y="650"/>
+    <use href="#house" x="690" y="660"/>
+    <use href="#house" x="130" y="650"/>
+    <use href="#house" x="260" y="665"/>
+    <use href="#house" x="390" y="690"/>
+    <use href="#house" x="520" y="720"/>
+  </g>
+
+  <g fill="#4e7a3f">
+    <ellipse cx="860" cy="640" rx="16" ry="70"/>
+    <ellipse cx="900" cy="660" rx="14" ry="60"/>
+    <ellipse cx="1010" cy="740" rx="16" ry="72"/>
+    <ellipse cx="1100" cy="700" rx="14" ry="62"/>
+  </g>
+
+  <path d="M1000 1000 C1040 900 1140 860 1260 850 C1380 840 1480 800 1600 760 V1000 Z" fill="#6fb3c9"/>
+
+  <g>
+    <circle cx="80" cy="900" r="8" fill="#d9483b"/>
+    <circle cx="120" cy="930" r="7" fill="#f6c344"/>
+    <circle cx="170" cy="890" r="8" fill="#d9483b"/>
+    <circle cx="230" cy="940" r="7" fill="#f6c344"/>
+    <circle cx="300" cy="905" r="8" fill="#d9483b"/>
+    <circle cx="360" cy="950" r="7" fill="#f6c344"/>
+  </g>
+</svg>
